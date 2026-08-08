@@ -1,0 +1,30 @@
+# Your personal configuration — never committed.
+# The tracked reference copy is system/config.example.md
+system/config.md
+
+# Obsidian local state — ignored in full.
+# Workspace layout, cache, and graph settings are machine-local, and the folder
+# also accumulates plugin config you may not have inspected. If you deliberately
+# want to share Obsidian settings, un-ignore the specific files you have read.
+.obsidian/
+
+# OS and editor noise
+.DS_Store
+.trash/
+Thumbs.db
+
+# Secrets — never belong in the vault at all, but block them here too
+*.env
+.env
+.env.*
+.claude/settings.local.json
+
+# ---------------------------------------------------------------------------
+# Opt-in privacy: uncomment any of these to keep that layer out of git.
+#
+# Trade-off: raw/ is your evidence base. Excluding it means your citations
+# point at files that exist on one machine only. Read system/PRIVACY.md first.
+# ---------------------------------------------------------------------------
+# raw/
+# inbox/
+# wiki/
