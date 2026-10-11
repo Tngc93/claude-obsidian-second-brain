@@ -2,6 +2,11 @@
 
 A markdown knowledge base that an AI agent builds and maintains for you, with every claim cited and every source archived.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset=".github/assets/how-it-works-dark.svg">
+  <img src=".github/assets/how-it-works-light.svg" alt="Animated diagram: a source dropped in inbox is read by Claude Code, its key claims are verified against primary sources, the source and the evidence are archived immutably in raw, summary and wiki pages are written with citations to the archive, index and log are updated, questions are answered with inline citations and durable answers are filed as syntheses" width="100%">
+</picture>
+
 ## Overview
 
 You put sources into a folder — articles, PDFs, transcripts, notes. [Claude Code](https://claude.com/claude-code) reads each one, checks the significant claims against primary sources, archives both the source and the evidence, and writes the results into a linked wiki of markdown pages. You read and browse it in [Obsidian](https://obsidian.md), or in any editor: it is plain markdown on your own disk.
